@@ -1,4 +1,4 @@
-const socket = io.connect("http://localhost:3000/")
+const socket = io.connect("https://the-yumski-chat.onrender.com")
 
 
 const screen = document.getElementById("screen")
