@@ -16,7 +16,7 @@ body {
 
 #screen {
   border: 1px solid #121212;
-  height: 70dvh;
+  height: 40dvh;
   padding: 10px;
   background: #000;
   overflow-y: scroll;
