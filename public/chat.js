@@ -22,8 +22,9 @@ form.addEventListener("submit", e => {
     handle: `@${handle.value}`,
     message: message.value
   })
-  setScroll()
   message.value = ""
+  setScroll()
+  //message.value = " "
 })
 
 document.getElementById("message").onkeypress = function() {
