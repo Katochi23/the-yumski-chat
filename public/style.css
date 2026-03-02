@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#screen {
+  border: 1px solid #121212;
+  height: 500px;
+  padding: 10px;
+  background: #000;
+  overflow-y: scroll;
+  max-width: 760px;
+  width: 100%;
+  margin: auto;
+  scrollbar-color: green #000;
+  scrollbar-width: thin;
+}
+
+#screen p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#msg {
+  display: grid;
+  gap: 10px;
+  max-width: 760px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+#msg input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#msg button {
+  background: dodgerblue;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  text-transform: capitalize;
+}
